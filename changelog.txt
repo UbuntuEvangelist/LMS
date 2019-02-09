@@ -1,0 +1,72 @@
+/* ======================================================================== \
+|   forma.lms - The E-Learning Suite                                        |
+|                                                                           |
+|   Copyright (c) 2013 (Forma)                                              |
+|   http://www.formalms.org                                                 |
+|   License  http://www.gnu.org/licenses/old-licenses/gpl-2.0.txt           |
+|                                                                           |
+|   from docebo 4.0.5 CE 2008-2012 (c) docebo                               |
+|   License http://www.gnu.org/licenses/old-licenses/gpl-2.0.txt            |
+\ ======================================================================== */
+
+-----------------------------------------------------------------------------
+CHANGELOG
+
+forma.lms 2.0
+Relase date: 2018/06/15
+-----------------------------------------------------------------------------
+
+
+CORE ENANCHEMENTS
+
+- PHP 7 compatibility
+- MVC modules refactored: my courses, catalog, mycertificates, gradebook, and more
+- New Customfields for core objects customization (course, test LO)
+- New - log sql script feature
+- New password chryptography method (BCRYPT)
+- Improved Privacy management for GDPR compliance
+- Removed Flash Graphs (introduced new jquery graph engine)
+- Refactored authentication (plugin)
+- Updated PLUGIN management system
+- New languages (HE) and Language updates (IT, EN, FR, IT, FI)
+- Performance improvements on user management
+- API and Connectors improvements
+- Vulnerability Fixes
+- Dozens of bug fixes and minor changes
+
+
+LAYOUT & UX
+
+- New Responsive Layout
+- Global stylesheet refactoring, introducing SASS (take a look at the included KSS styleguide under /templates/standard/styleguide/section-3.html)
+- Simplified general user navigation and usability improvements
+- Introduced Bootstrap/jQuery framework
+- Refactored and redesigned courselist and course catalog pages
+- Refactored and redesigned gradebook
+- Refactored and redesigned course menu
+- New user panel
+- Forum restyling
+- LMS home page management (options in main config)
+- Redesigned administration menu
+- Re-arranged system configuration options
+
+
+GENERAL LMS FUNCTIONALITIES
+
+- New - administrator permissions in course teacher area 
+- New - Retain answers of all test sessions
+- Updated TinyMCE text editor
+- Improved - Import Users: mantain csv names case, enanched password control
+- New detailed export in User data grid
+- New - Edit course completion date for users
+- Improved - Access details added in Users-Object Grid
+- Improved Certificate Management (Massive download, advanced search)
+- Double Opt-In - New users listed as waiting users until they click on confirmation link
+
+
+REMOVED FEATURES
+
+- Public administrators
+- Course graphs
+- Assessment (admin/elearning/assessment)
+
